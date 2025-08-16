@@ -13,7 +13,7 @@
     "medusa"
   ],
   "scripts": {
-   "build": "NODE_OPTIONS=--max_old_space_size=1024 medusa build --no-admin",
+   "build": "medusa build --no-admin",
     "seed": "medusa exec ./src/scripts/seed.ts",
     "start": "medusa start",
     "dev": "medusa develop",
